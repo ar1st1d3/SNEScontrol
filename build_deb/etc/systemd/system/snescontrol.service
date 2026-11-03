@@ -1,0 +1,12 @@
+[Unit]
+Description=SNES USB Gamepad UInput Adapter Daemon
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/snescontrol
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

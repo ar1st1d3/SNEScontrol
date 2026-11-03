@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=SNEScontrol
+Comment=Adaptateur et gestionnaire de manette SNES USB
+Exec=snescontrol
+Icon=/usr/share/pixmaps/snescontrol.png
+Terminal=false
+Type=Application
+Categories=Game;Utility;
+Keywords=gamepad;snes;joystick;uinput;controller;antimicrox;
+StartupNotify=true
+StartupWMClass=snescontrol

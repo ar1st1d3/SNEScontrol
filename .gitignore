@@ -1,0 +1,5 @@
+# Fichiers compilés et paquets
+snescontrol
+*.o
+*.deb
+build_deb/

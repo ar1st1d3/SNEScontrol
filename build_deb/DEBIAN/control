@@ -1,0 +1,9 @@
+Package: snescontrol
+Version: 1.2.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Aristide Ve
+Depends: libgtk-3-0
+Description: Contrôleur SNES pour Linux
+ Application et service de gestion pour manette SNES.

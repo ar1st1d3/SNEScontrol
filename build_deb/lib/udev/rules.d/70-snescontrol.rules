@@ -1,0 +1,3 @@
+# Règle udev pour SNEScontrol : autorise l'utilisateur actif de la session graphique à accéder à uinput et à la manette SNES
+KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
+SUBSYSTEM=="input", ATTRS{idVendor}=="0810", ATTRS{idProduct}=="e501", TAG+="uaccess"
