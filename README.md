@@ -5,8 +5,12 @@
 
 An interactive GTK3 graphical application and resident C driver adapter for USB SNES controllers (`0810:e501` "usb gamepad") on Linux.
 
-SNEScontrol captures raw input, corrects d-pad axis behavior into clean digital events via `uinput` and `EVIOCGRAB`, and provides real-time visual button feedback.
+SNEScontrol captures raw input, corrects d-pad axis behavior into clean digital events via `uinput` and `EVIOCGRAB`, and provides real-time visual button feedback. 
+
+
 <img src="./screen.png" width="760" alt="Screenshoot">
+</div>
+
 ## Features
 
 - **Interactive GTK3 Interface**
@@ -98,8 +102,10 @@ SNEScontrol supports several operational modes depending on your workflow:
 |`snescontrol --cli`|Executes in standalone console mode without GUI overhead.|
 |`snescontrol --daemon`|Runs silently as a background service daemon.|
 
+## Credit
+Built by Ar1st1d3 with Antigravity.
+
 ## License
 
-This project is released under the [MIT License](LICENSE "null").
+This project is released under the [MIT License](./LICENSE.md).
 
-</div>
